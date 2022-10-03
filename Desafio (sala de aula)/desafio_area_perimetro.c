@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void imprimirAreaPerimetro(float area, float perimetro) {
 	printf("\n-------------------------");
