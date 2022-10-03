@@ -119,7 +119,7 @@ int main() {
 		printf("- Diagonal maior do lozango: ");
 		scanf("%f", &diagonalMaiorLozango);
 
-		printf("\n| Dados para o perimetro do trapezio\n");
+		printf("\n| Dados para o perimetro do lozango\n");
 
 		printf("- Lado do lozango: ");
 		scanf("%f", &ladoLozango);
