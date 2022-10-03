@@ -107,27 +107,27 @@ int main() {
 		break;
 
 	case 5: ; // caso o usuario escolha lozango
-		float diagonalMenorLozango, diagonalMaiorLozango, ladoLozango;
+		float diagonalMenorLosango, diagonalMaiorLosango, ladoLosango;
 
-		printf("\n| Dados do lozango");
+		printf("\n| Dados do losango");
 
-		printf("\n| Dados para a area do lozango\n");
+		printf("\n| Dados para a area do losango\n");
 
-		printf("- Diagonal menor do lozango: ");
-		scanf("%f", &diagonalMenorLozango);
+		printf("- Diagonal menor do losango: ");
+		scanf("%f", &diagonalMenorLosango);
 
-		printf("- Diagonal maior do lozango: ");
-		scanf("%f", &diagonalMaiorLozango);
+		printf("- Diagonal maior do losango: ");
+		scanf("%f", &diagonalMaiorLosango);
 
-		printf("\n| Dados para o perimetro do lozango\n");
+		printf("\n| Dados para o perimetro do losango\n");
 
-		printf("- Lado do lozango: ");
-		scanf("%f", &ladoLozango);
+		printf("- Lado do losango: ");
+		scanf("%f", &ladoLosango);
 
-		float areaLozango = (diagonalMaiorLozango * diagonalMenorLozango) / 2;
-		float perimetroLozango = ladoLozango * 4;
+		float areaLosango = (diagonalMaiorLosango * diagonalMenorLosango) / 2;
+		float perimetroLosango = ladoLosango * 4;
 
-		imprimirAreaPerimetro(areaLozango, perimetroLozango);
+		imprimirAreaPerimetro(areaLosango, perimetroLosango);
 
 		break;
 
